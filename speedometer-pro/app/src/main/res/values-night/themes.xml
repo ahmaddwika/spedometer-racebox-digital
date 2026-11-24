@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SpeedometerPro" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/speed_value</item>
+        <item name="android:statusBarColor">@color/ic_launcher_background</item>
+    </style>
+</resources>

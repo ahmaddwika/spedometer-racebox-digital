@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Speedometer Pro</string>
+
+    <string name="nav_speedometer">Spedo</string>
+    <string name="nav_racebox">Racebox</string>
+    <string name="nav_history">Riwayat</string>
+    <string name="nav_settings">Setelan</string>
+
+    <string name="unit_kmh">km/h</string>
+
+    <string name="label_max">Kecepatan Maks</string>
+    <string name="label_distance">Jarak</string>
+    <string name="label_time">Waktu</string>
+
+    <string name="action_start">Mulai</string>
+    <string name="action_stop">Berhenti</string>
+    <string name="action_reset">Reset</string>
+    <string name="action_clear">Hapus Semua</string>
+    <string name="action_delete">Hapus</string>
+
+    <string name="status_idle">Menunggu start</string>
+    <string name="gps_accuracy_fmt">Akurasi %1$d m · %2$d satelit</string>
+    <string name="gps_accuracy_fmt_default">Akurasi — · — satelit</string>
+    <string name="gps_signal_fmt">%1$d satelit</string>
+    <string name="gps_signal_fmt_default">— satelit</string>
+
+    <string name="history_empty">Belum ada trip. Mulai tracking lalu berhenti untuk menyimpan.</string>
+
+    <string name="settings_unit_title">Satuan</string>
+    <string name="settings_unit_mph">Gunakan mil/jam (mph) &amp; kaki (ft)</string>
+    <string name="settings_calibration_title">Kalibrasi Kecepatan</string>
+    <string name="settings_calibration_value">%1$d%%</string>
+    <string name="settings_calibration_value_default">100%</string>
+    <string name="settings_calibration_info">GPS mengukur kecepatan asli. Sebagian besar speedometer motor menunjukkan lebih tinggi (5–10%). Geser ke nilai yang membuat angka di HP sama dengan speedometer motor saat jalan konstan (misal 100 km/jam di spidometer = 100% di sini bila disamakan). 100% = kecepatan asli.</string>
+    <string name="settings_accuracy_title">Tentang Akurasi</string>
+    <string name="settings_accuracy_info">Kecepatan dibaca dari kecepatan Doppler GPS (Location.getSpeed), bukan dari beda posisi, sehingga stabil di kecepatan rendah dan tidak bergetar saat diam. Jarak hanya dihitung dari perpindahan nyata &gt; 1,5 m dengan akurasi sinyal &lt; 20 m; lompatan sinyal dan jeda panjang diabaikan.</string>
+
+    <string name="accuracy_tip">Pastikan GPS menyala di luar ruangan (open sky) untuk hasil paling akurat. Kecepatan dibaca langsung dari chip GPS.</string>
+
+    <string name="notif_title">Speedometer Pro</string>
+    <string name="channel_name">Lacak Posisi</string>
+</resources>
